@@ -1,0 +1,152 @@
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://purl.org/dc/elements/1.1/description> "The Maturity Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists the levels of maturity of resources in the registry."@en .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://purl.org/dc/elements/1.1/title> "Maturity Controlled Vocabulary"@en .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Maturity Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"@en .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://purl.org/dc/terms/license> "Ruth Duerr"@en .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "" .
+<http://cor.esipfed.org/ont/earthcube/MTU> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "definition" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/2000/01/rdf-schema#label> "definition source" .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasURI
+<http://www.geneontology.org/formats/oboInOwl#hasURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000001
+<http://cor.esipfed.org/ont/earthcube/MTU_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:19:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Used in multiple places"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000002
+<http://cor.esipfed.org/ont/earthcube/MTU_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:19:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "In production"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000003
+<http://cor.esipfed.org/ont/earthcube/MTU_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:20:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "Production ready"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000004
+<http://cor.esipfed.org/ont/earthcube/MTU_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:20:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Beta or complete draft"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000005
+<http://cor.esipfed.org/ont/earthcube/MTU_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:20:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Alpha or rough draft"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000006
+<http://cor.esipfed.org/ont/earthcube/MTU_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000006> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000006> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:20:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "In development: <1 yr out"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000007
+<http://cor.esipfed.org/ont/earthcube/MTU_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000007> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000007> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:21:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "In development: >1 yr out"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000008
+<http://cor.esipfed.org/ont/earthcube/MTU_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000008> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000008> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:21:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "Planning"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000009
+<http://cor.esipfed.org/ont/earthcube/MTU_0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000009> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000009> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:21:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "Superceded"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000010
+<http://cor.esipfed.org/ont/earthcube/MTU_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000010> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000010> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:21:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "Not Accessible"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000011
+<http://cor.esipfed.org/ont/earthcube/MTU_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MTU_0000012> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:21:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "Unknown"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MTU_0000012
+<http://cor.esipfed.org/ont/earthcube/MTU_0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000012> <http://purl.obolibrary.org/obo/IAO_0000115> "A categorization of the maturity of a resource in the EarthCube Resource Registry."@en .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000012> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000012> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T18:22:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MTU_0000012> <http://www.w3.org/2000/01/rdf-schema#label> "resource maturity"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

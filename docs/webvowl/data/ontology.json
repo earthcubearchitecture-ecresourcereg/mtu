@@ -1,0 +1,487 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Maturity Controlled Vocabulary"
+    },
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU",
+    "version" : "1.0.0",
+    "description" : {
+      "en" : "The Maturity Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists the levels of maturity of resources in the registry."
+    },
+    "other" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      }, {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+        "type" : "iri"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "Duerr, R., 2019, \"Maturity Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Maturity Controlled Vocabulary",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000012",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A categorization of the maturity of a resource in the EarthCube Resource Registry.",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:22:15Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000012",
+      "en" : "resource maturity"
+    },
+    "subClasses" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000011",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:21:46Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000011",
+      "en" : "Unknown"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000010",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:21:39Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000010",
+      "en" : "Not Accessible"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:19:40Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000001",
+      "en" : "Used in multiple places"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000003",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:20:03Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000003",
+      "en" : "Production ready"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000002",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:19:52Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000002",
+      "en" : "In production"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000009",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:21:29Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000009",
+      "en" : "Superceded"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000008",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:21:14Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000008",
+      "en" : "Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:20:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000005",
+      "en" : "Alpha or rough draft"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:20:14Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000004",
+      "en" : "Beta or complete draft"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000007",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:21:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000007",
+      "en" : "In development: >1 yr out"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MTU_0000006",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T18:20:46Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MTU_0000006",
+      "en" : "In development: <1 yr out"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "0" ]
+  } ],
+  "property" : [ {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "0",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "0",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "0",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "0",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "0",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "0",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  } ]
+}
